@@ -2,7 +2,7 @@
 
 /**
  * main - Main Entry point
- * Description: short description
+ * void: short description
  * puts: display the result of the funciton
  *
  * Retrun: by defult returns always 0 (Success) if no errors return 0
