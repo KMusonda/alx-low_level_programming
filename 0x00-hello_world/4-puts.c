@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Main Entry point
- * puts - prints "Programming is like building a multilingual puzzle"
+ * main- main entry point
  *
- * retrun: by defult returns 0 if no errors.
+ * Description: this program prints using puts
+ * Return:0
  */
 int main(void)
 {
