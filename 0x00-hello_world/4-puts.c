@@ -1,21 +1,14 @@
 #include <stdio.h>
 
 /**
- * Main Entry point
+ * main- short description, Main Entry point
+ * puts: display the result of the funciton
  *
- * Description: this is the entry of the code
- *
- * Retrun: always 0 (Success)
+ * Retrun: by defult returns always 0 (Success) if no errors
  */
 int main(void)
-/**
- * Description: the function main displays the value
- * description: the return value set to 0
- */
 {
 	puts("\"Programming is like building a multilingual puzzle");
+
 	return (0);
 }
-/**
- * this is where the code ends
- */
