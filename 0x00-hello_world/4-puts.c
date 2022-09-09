@@ -2,8 +2,9 @@
 
 /**
  * main - Main Entry point
+ * puts - prints "Programming is like building a multilingual puzzle"
  *
- * Retrun: by defult returns zero if no errors otherwise returns non-zero value.
+ * Retrun: by defult returns 0 if no errors.
  */
 int main(void)
 {
