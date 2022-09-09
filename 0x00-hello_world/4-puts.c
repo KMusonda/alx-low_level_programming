@@ -3,7 +3,7 @@
 /**
  * main - Main Entry point
  *
- * Retrun: by defult returns always 0 (Success) if no errors return 0
+ * Retrun: by defult returns zero if no errors otherwise returns non-zero value.
  */
 int main(void)
 {
