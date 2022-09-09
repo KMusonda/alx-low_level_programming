@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * main- short description, Main Entry point
+ * main - Main Entry point
+ * Description: short description
  * puts: display the result of the funciton
  *
- * Retrun: by defult returns always 0 (Success) if no errors
+ * Retrun: by defult returns always 0 (Success) if no errors return 0
  */
 int main(void)
 {
