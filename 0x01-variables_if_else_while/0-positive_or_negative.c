@@ -5,7 +5,7 @@
 /**
  * main - entry point of the program
  *
- * description: print whether the number stored in the variable n is positive or negative.
+ * description: print number stored in the variable n is positive or negative
  * Return: return value set to 0
  */
 int main(void)
