@@ -9,10 +9,10 @@ void print_alphabet(void);
 int main(void)
 {
 	int ch;
-	print_alphabet("print the alphabet, in lowercase, followed by a new line \n");
+	print_alphabet("print the alphabet in lowercase followed by a new line :\n");
 
-	for (ch= ‘A’; ch<= ‘Z’; ch++)
+	for (ch = 'A'; ch <= 'Z'; ch++)
 		putchar(ch);
-		putchar (‘\n’ );
+		putchar ('\n');
 	return (0);
 }
