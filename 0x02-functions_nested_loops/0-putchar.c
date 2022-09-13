@@ -9,11 +9,7 @@
  */
 int main(void)
 {
-	char c
-	{
-		for (c = _putchar)
-	}
-	printf("\n%d"; c)
-	
-		return (0)
+	printf("_putchar\n");
+
+	return(0);
 }
