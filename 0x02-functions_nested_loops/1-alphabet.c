@@ -1,18 +1,18 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * main - check the code
+ * main - print all lower case letter
  *
  * Return: Always 0.
  */
 void print_alphabet(void);
 int main(void)
 {
-	char ch = 'a'
-	while(ch <= 'z')
-	{
-		print_alphabet("%c ", ch);
-		ch++;
-	}
+	int ch;
+	print_alphabet("print the alphabet, in lowercase, followed by a new line \n");
+
+	for (ch= ‘A’; ch<= ‘Z’; ch++)
+		putchar(ch);
+		putchar (‘\n’ );
 	return (0);
 }
