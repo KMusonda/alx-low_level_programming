@@ -8,14 +8,16 @@
  */
 int _islower(int c);
 {
-	char ch;
+	char ch = 'a';
+	int n = '0';
 
-	if (ch >= 'a'&& ch >='z')
+	while (ch >= 'a' && ch >='z')
 	{
-		_putchar(ch)
+		_putchar(ch);
 		ch++
 	}
-	return (1);
-	else
-	return (0);
+	while (ch != 'n')
+	{
+		_putchar (0);
+	}
 }
