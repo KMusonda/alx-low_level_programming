@@ -9,6 +9,7 @@
 int _islower(int c)
 {
 	int r;
+	n = 'a';
 
 	r = _islower(n);
 	_putchar(r + '0');
