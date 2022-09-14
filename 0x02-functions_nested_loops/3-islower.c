@@ -4,20 +4,23 @@
  * _islower(int c); - print all lower case letter
  *
  *
- *return: 1 if c is lowercase, 0 otherwise.
+ *@n: Number to pass to _islower function
  */
 int _islower(int c)
 {
-	char ch = 'a';
-	int n = '0';
+	int r;
 
-	while (ch >= 'a' && ch >='z')
-	{
-		_putchar(ch);
-		ch++
-	}
-	while (ch != 'n')
-	{
-		_putchar (0);
-	}
+	r = _islower(n);
+	_putchar(r + '0');
+	_putchar('\n');
+}
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+	test_islower('H');
+	return (0);
 }
