@@ -6,7 +6,6 @@
  * positive_or_negative: tests character if positive or negative
  * Return: 0
  */
-void positive_or_negative(int i);
 int main(void)
 {
 	int i;
