@@ -15,7 +15,7 @@ char *_memset(char *s, char b, unsigned int n)
 {
 	while (n)
 	{
-		x[s - 1] = b;
+		s[n - 1] = b;
 		n--;
 	}
 	return (s);
